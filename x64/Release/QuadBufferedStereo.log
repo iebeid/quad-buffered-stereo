@@ -1,0 +1,51 @@
+﻿Build started 12/4/2016 10:27:05 AM.
+     1>Project "D:\Projects\UALR\QuadBufferedStereo\QuadBufferedStereo.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Dev\freeglut\include /ID:\Dev\glew\include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt IMAGE.C ipers_stereo.c stereoproj.c
+         IMAGE.C
+     1>IMAGE.C(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         ipers_stereo.c
+     1>ipers_stereo.c(71): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(72): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(214): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ipers_stereo.c(215): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ipers_stereo.c(216): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ipers_stereo.c(249): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(252): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(501): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(564): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>ipers_stereo.c(600): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>ipers_stereo.c(709): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>ipers_stereo.c(712): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>ipers_stereo.c(715): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>ipers_stereo.c(718): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>ipers_stereo.c(735): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>ipers_stereo.c(739): warning C4047: 'function' : 'char **' differs in levels of indirection from 'char ***'
+     1>ipers_stereo.c(739): warning C4024: 'glutInit_ATEXIT_HACK' : different types for formal and actual parameter 2
+     1>ipers_stereo.c(762): warning C4305: 'function' : truncation from 'double' to 'GLfloat'
+         stereoproj.c
+     1>stereoproj.c(29): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>stereoproj.c(30): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>stereoproj.c(37): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>stereoproj.c(39): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>stereoproj.c(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\UALR\QuadBufferedStereo\x64\Release\QuadBufferedStereo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Dev\freeglut\lib\Release /LIBPATH:D:\Dev\glew\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\UALR\QuadBufferedStereo\x64\Release\QuadBufferedStereo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\UALR\QuadBufferedStereo\x64\Release\QuadBufferedStereo.lib" /MACHINE:X64 x64\Release\IMAGE.obj
+         x64\Release\ipers_stereo.obj
+         x64\Release\stereoproj.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         QuadBufferedStereo.vcxproj -> D:\Projects\UALR\QuadBufferedStereo\x64\Release\QuadBufferedStereo.exe
+     1>Done Building Project "D:\Projects\UALR\QuadBufferedStereo\QuadBufferedStereo.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
